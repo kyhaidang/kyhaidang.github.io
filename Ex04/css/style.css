@@ -1,0 +1,69 @@
+body{
+  font-style: oblique;font-size: 20px;
+  color: rgb(175, 60, 15); 
+   /*  unvisited  link  */ 
+   a:link  {
+    color:  rgb(245, 101, 34);
+}
+/*  visited  link  */ 
+a:visited  {
+  color: rgb(255, 230, 10);
+}
+/*  mouse  over  link  */ 
+a:hover  {
+  color: rgb(20, 117, 182);
+}
+/*  selected  link  */ 
+a:active  {
+  color:  rgb(0, 255, 234);
+}
+</style>
+}
+
+
+/* Header **/
+header{
+  background: rgb(197, 147, 9) ;
+  color:;
+  padding-top: 5px;
+  min-height: 60px;
+  border-bottom: #e8491d 3px solid;
+  .container{display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    
+}
+
+header a{
+  text-decoration: none;
+  color:#ffffff
+  
+}
+
+header li{
+
+  list-style: none;
+  margin-left: 4rem;
+
+}
+
+header #branding{
+  background-color: #e8491d;
+}
+
+header #branding h1{
+background-color:;
+  
+
+}
+
+header nav{
+    font-size: 1.2rem;
+  
+    ul{
+      display: flex;
+      padding-right: 20px;
+      }
+  
+}
